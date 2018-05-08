@@ -48,6 +48,16 @@ h6 {
   margin-right: 11px;
 }
 
+.checkwh {
+  margin-left: -33px !important;
+  width: 30px;
+  height: 20px;
+}
+
+.width {
+  width: 22%;
+}
+
 @media only screen and (max-width: 600px) {
   .hw > img {
     width: 100% !important;
@@ -64,5 +74,85 @@ h6 {
 
   .btn-lg {
     font-size: 15px !important;
+  }
+
+  .navbar {
+    padding: 0 !important;
+  }
+
+  .space {
+    padding-top: 0rem !important;
+  }
+
+  .text-center {
+    text-align: center !important;
+    padding: 10px !important;
+  }
+
+  .display-4 {
+    font-size: 37px !important;
+  }
+
+  .cameopara {
+    margin-top: 0 !important;
+    text-align: center !important;
+    margin-bottom: 1rem !important;
+    font-size: 20px !important;
+  }
+
+  .cameoinaction {
+    margin-bottom: -0.5rem !important;
+    margin-top: 28px !important;
+  }
+
+  .displaynone {
+    display: none;
+  }
+
+  .feture {
+    text-align: center !important;
+  }
+
+  .fheading {
+    text-align: center !important;
+    margin-top: 28px !important;
+  }
+
+  .width {
+    width: 30% !important;
+  }
+
+  .align {
+    text-align: center !important;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .displaynone {
+    display: none !important;
+  }
+
+  .feture {
+    text-align: center !important;
+  }
+}
+
+@media only screen and (max-width: 668px) {
+  .displaynone {
+    font-size: 16px !important;
+  }
+
+  .feture {
+    text-align: center !important;
+  }
+}
+
+@media only screen and (max-width: 823px) {
+  .displaynone {
+    font-size: 18px !important;
+  }
+
+  .feture {
+    text-align: center !important;
   }
 }
